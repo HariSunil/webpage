@@ -11,10 +11,11 @@
                 
 </head>
 <body>
-  <div class="form-container">
-    <div class="my-form">
+<div class="form-container">
+    <div class="sub-container">
+        <div class="my-form">
             <div class="element"> 
-                <form>
+                     <form>
                           <div class="first-element">
                                 <div class="sub-element">
                                        <div class="base-element">
@@ -33,6 +34,7 @@
                             <div class="UIform">
                                     <h3 id="signform">Sign Up</h3>
                             </div>
+                            <div>
                             <div class="form">
                                    <p>
                                     <label for="Username"><p class="name"><b>Username</b></p></label>
@@ -59,11 +61,12 @@
                                     <input style="font-family: 'Font Awesome 5 free'; font-weight:700;font-size: 0.8em;" type="password" placeholder="&#Xf023;                                                                                                       &#xf06e;" name="c-pwd" required>
                                     </p>
                            </div>
-                           <div class="box">
-                                    <label>
-                                        <input type="checkbox" name="terms">I agree <a href="#"><b>Terms and Policy.</b></a>
-                                    </label>
-                                    </div>
+                          </div>
+                          <div class="box">
+                            <label>
+                                <input id="terms" type="checkbox" ><spam id="agree">I agree</spam> <a href="#"><b>Terms and Policy.</b></a>
+                            </label>
+                          </div>
                            <div>
                              <button type="submit" class="btn">Create an Account</button>
                            </div>
@@ -76,29 +79,30 @@
                                     <button type="submit" class="sm_btn"><span id="apl"><i class="fa-brands fa-apple" style="font-size:10px"></i></span>Login with AppleID</button>
                                 </div>
                          </div>
-                <div class="log">Already have an account? <a href="#"><b>Log In</b></a></div>
-            </form>
-        </div>
-        <div class="element chart">
-               <div class="rating">
-                      <img src="./images/2289_SkVNQSBGQU1PIDEwMjgtMTIy.jpg" alt="avatar" class="avatar">
-                      <span id="tick">&#x2705;</span>
-                      <p id="component"><i>.so clean and ready to use<br> components.i love it!</i></p>
-                      <div class="ratingstar">
-                        <span id="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-                    </div>
-                </div>
-                <div class="graph">
-                    <canvas id="myChart" width="200" height="150"></canvas>
-                <div class="growth">
-                    <i style="font-family: 'Font Awesome 5 free'; font-weight:700;" id="g1" class="fa-solid fa-rocket"></i>
-                    <p id="mg"><b>Manage your growth</b></p></div>  
-                </div>
-             </div>
-          </div>
+                         <div class="log">Already have an account? <a href="#"><b>Log In</b></a></div>
+                    </form>
+            </div>
+            <div class="element chart">
+                      <div class="rating">
+                              <img src="./images/2289_SkVNQSBGQU1PIDEwMjgtMTIy.jpg" alt="avatar" class="avatar">
+                              <span id="tick">&#x2705;</span>
+                              <p id="component"><i>.so clean and ready to use<br> components.i love it!</i></p>
+                              <div class="ratingstar">
+                                <span id="star">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                              </div>
+                        </div>
+                        <div class="graph">
+                            <canvas id="myChart" width="200" height="150"></canvas>
+                            <div class="growth">
+                                <i style="font-family: 'Font Awesome 5 free'; font-weight:700;" id="g1" class="fa-solid fa-rocket"></i>
+                                <p id="mg"><b>Manage your growth</b></p></div>  
+                            </div>
+                         </div>
+            </div>
        </div>
-  </div>
-  <script>
+    </div>
+</div>
+<script>
     const data = {
         labels: ['January', 'February', 'March', 'April', 'May', 'June'],
       datasets: [{

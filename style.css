@@ -101,12 +101,33 @@ p{
   input{
     box-sizing: border-box;
     width: 100%;
-  }
+  } 
+.box{
+    margin-bottom: 10px;
+}
+#agree{
+    font-size: 0.5rem;
+}
+.box a{
+    text-decoration: none;
+    color: black;
+    font-size:0.5rem;
+}
+.box a:hover{
+    text-decoration: underline;
+}
+@media (any-pointer:fine){
+    input[type=checkbox]:checked {
+        width:15px;
+        height:15px;
+        background: lightgray;
+    }
+}
 .sm{
     display: flex;  
     justify-content: space-around;
     margin-bottom: 20px;
-}
+}   
 .log{
     font-size: 0.5em;
     display: flex;
@@ -117,20 +138,12 @@ p{
     color: black;
     margin-left: 0.5rem;
 }
+.log a:hover{
+    text-decoration: underline;
+}
 #or{
     display: flex;
     justify-content: center;
-}
-.box{
-    font-size: 0.5em;
-    margin-bottom: 20px;
-}
-.box a{
-    text-decoration: none;
-    color: black;
-}
-input[type="checkbox"]{
-    transform: scale(0.875);
 }
 .btn{
     background-color: black;
@@ -145,6 +158,9 @@ input[type="checkbox"]{
     margin: 2px 4px;
     border-radius: 8px;
 }
+.btn:hover{
+    background: gray;
+}
 .sm_btn{
     background-color: rgb(241,244,249);
     color:black;
@@ -156,6 +172,9 @@ input[type="checkbox"]{
     cursor: pointer;
     margin: 2px 4px;
     border-radius: 8px;
+}
+.sm_btn:hover{
+    background: lightgrey;
 }
 #glg,#apl,#back{
   margin-right: 1em;
@@ -254,21 +273,71 @@ input[type="checkbox"]{
     width:30px;
     height:20px;
   }
-  @media screen and (min-width:340px) and (max-width:720px){
+  @media screen and (min-width:320px) and (max-width:600px){
     .form-container{
-        width: 80%;
+        background-color: rgb(253,247,232);
+        width:1200px;
+        height:1500px;
+    }
+    .my-form{
+        width: 50%;
         height:auto;
+        display:block;
+    }
+    .chart{
+        width:500px;
+        height:580px;
+        margin-top: 20px;
+    }
+    .form p{
+        font-size:0.8rem;
+    }
+    .btn{
+        font-size:0.8rem;
+        background-color:lightgray;
+        color: black;
+    }
+    #b_ack{
+        font-size:0.9rem;
     }
   }
-  @media screen and (min-width:720px) and (max-width:1024px){
+  @media screen and (min-width:601px) and (max-width:980px){
     .form-container{
+        background-color: rgb(253,247,232);
+        width:100%;
+        height:1500px;
+    }
+    .my-form{
         width: 80%;
         height:auto;
+        display:block;
+    }
+    .chart{
+        width:500px;
+        height:580px;
+        margin-top: 20px;
+    }
+    .form p{
+        font-size:0.8rem;
+    }
+    .btn{
+        font-size:0.8rem;
+        background-color:lightgray;
+        color: black;
+    }
+    #b_ack{
+        font-size:0.9rem;
     }
   }
-  @media screen and (min-width:1024px){
+  @media screen and (min-width:981px) and (max-width:1200){
     .form-container{
         width: 50%;
+        height: auto;
+    }
+  }
+  @media screen and (min-width:1201){
+    .form-container{
+        width:50%;
         height: auto;
     }
   }
