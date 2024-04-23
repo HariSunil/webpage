@@ -38,8 +38,7 @@ body{
     background-color: rgb(255,255,255);
     width:500px;
     height: 620px;
-    padding-inline: 24px;
-    padding-block: 24px;
+    padding:36px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
     box-shadow: 0px 2px 4px 0px #888888;
@@ -50,7 +49,7 @@ body{
 }
 #signform{
     font-family: 'regularfont';
-    font-weight: 600;
+    font-weight: 800;
     font-size: 18px;
 }
 .first-element{
@@ -114,12 +113,15 @@ p{
 .sm{
     display: flex;  
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
 }   
 .log{
-    font-size: 12px;
+    font-size: 10px;
     display: flex;
     justify-content: center;
+}
+#acc{
+    opacity: 0.4;
 }
 .log a{
     text-decoration: none;
@@ -133,6 +135,7 @@ p{
 #or{
     display: flex;
     justify-content: center;
+    opacity: 0.5;
 }
 .btn{
     background-color: black;
@@ -144,7 +147,7 @@ p{
     text-decoration: none;
     font-size: 10px;
     cursor: pointer;
-    margin: 2px 4px;
+    margin: 2px;
     border-radius: 8px;
 }
 .btn:hover{
@@ -161,6 +164,10 @@ p{
     cursor: pointer;
     margin: 2px 4px;
     border-radius: 8px;
+}
+#agree{
+    opacity: 0.5;
+    padding-inline: 2px;
 }
 .sm_btn:hover{
     background: lightgrey;
