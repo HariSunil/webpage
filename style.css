@@ -12,9 +12,9 @@ body{
     width:100%;
     height: 800px;
     margin: auto;
-    display:flex;
+    display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 @font-face {
     font-family: 'mediumfont';
@@ -31,35 +31,27 @@ body{
 #UI{
     font-family: 'mediumfont';
     font-weight: 700;
-    font-size: 1.25em;
+    font-size: 20px;
     letter-spacing: 1.5px;
 }
 .element{
     background-color: rgb(255,255,255);
     width:500px;
     height: 620px;
-    padding: 55px;
+    padding-inline: 24px;
+    padding-block: 24px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
     box-shadow: 0px 2px 4px 0px #888888;
 
 }
-.sub-element{
-    position: relative;
-    bottom:20px;
-}
 .base-element{
     display: inline-flex;
-}
-#c-img{
-    position: relative;
-    top:4px;
-    left: 4px;
 }
 #signform{
     font-family: 'regularfont';
     font-weight: 600;
-    font-size: 0.875em;
+    font-size: 18px;
 }
 .first-element{
     display: flex;
@@ -67,12 +59,18 @@ body{
 }
 #b_ack{
     font-weight: 300;
-    font-size: 0.7em;
+    font-size: 12px;
+    margin-left: 4px;
 }
 p{
-    margin: 1em;
-    font-size: 0.75em ;
-    line-height: 1.6;
+    line-height: 1.8;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+#name,#name1,#name2,#name3{
+  font-size: 14px;
+  font-family: 'lightfont';
+  font-weight: 700;
 }
 .form input[type=text]{
     background-color: #f1f5f6;
@@ -83,7 +81,7 @@ p{
     border: none;
   }
   input[type=text]::placeholder{
-    font-size: 0.5em;
+    font-size: 10px;
     font-weight: normal;
     opacity: 0.5;
   }
@@ -98,30 +96,20 @@ p{
     padding:15px;
     border: none;
   }
-  input{
-    box-sizing: border-box;
-    width: 100%;
-  } 
 .box{
     margin-bottom: 10px;
 }
 #agree{
-    font-size: 0.5rem;
+    font-size: 10px;
 }
 .box a{
     text-decoration: none;
     color: black;
-    font-size:0.5rem;
+    font-size:12px;
 }
 .box a:hover{
     text-decoration: underline;
-}
-@media (any-pointer:fine){
-    input[type=checkbox]:checked {
-        width:15px;
-        height:15px;
-        background: lightgray;
-    }
+    color: blue;
 }
 .sm{
     display: flex;  
@@ -129,17 +117,18 @@ p{
     margin-bottom: 20px;
 }   
 .log{
-    font-size: 0.5em;
+    font-size: 12px;
     display: flex;
     justify-content: center;
 }
 .log a{
     text-decoration: none;
     color: black;
-    margin-left: 0.5rem;
+    margin-left: 4px;
 }
 .log a:hover{
     text-decoration: underline;
+    color: blue;
 }
 #or{
     display: flex;
@@ -176,11 +165,16 @@ p{
 .sm_btn:hover{
     background: lightgrey;
 }
-#glg,#apl,#back{
-  margin-right: 1em;
+#txt,#txt1{
+    font-family: 'lightfont';
+    font-size: 10px;
+    font-weight: 700;
+}
+#glg,#apl{
+  margin-right: 4px;
 }
 .fontawesome{
-    font-size: 1em;
+    font-size: 10px;
     padding: 5px;
 }
 .form_chart{
@@ -208,13 +202,13 @@ p{
     left:150px;
     border-radius: 10px;
 }
-#img{
-    position: relative;
-    top:1em;
-    left: 0.5em;
+#mg{
+    font-family: 'regularfont';
+    font-weight: 600;
+    font-size: 8px;
 }
 .rating p{
-    font-size: 0.5rem;
+    font-size: 10px;
 }
 .ratingstar{
     color:gold;
@@ -223,7 +217,7 @@ p{
     position: relative;
     top:16px;
     right:4px;
-    font-size: 0.6em;
+    font-size: 8px;
 }
 .graph{
     background-color: white;
@@ -235,7 +229,7 @@ p{
     border-radius: 10px;
 }
 .growth{
-    font-size: 0.75em;
+    font-size: 12px;
     position: relative;
     top:70px;
     left: 30px;
@@ -244,14 +238,10 @@ p{
     float: left;
     padding-right: 10px;
 }
-.name{
-    font-size:0.5em;
-}
 #component{
     font-family: "lightfont";
     font-weight: 600;
-    position: relative;
-    top:4px;
+    font-size: 8px;
 }
 .avatar {
     vertical-align: middle;
@@ -264,10 +254,9 @@ p{
   }
   #tick{
     position: relative;
-    top:25px;
-    right: 10px;
-    left:2px;
-    font-size: 0.5em;
+    top:26px;
+    right: 8px;
+    font-size: 8px;
   }
   #arrow_img{
     width:30px;
@@ -279,6 +268,9 @@ p{
         width:100%;
         height:1300px;
         margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .my-form{
        min-width: 350px;
@@ -288,17 +280,6 @@ p{
     .chart{
         display:none;
     }
-    .form p{
-        font-size:0.7rem;
-    }
-    .btn{
-        font-size:0.8rem;
-        background-color:lightgray;
-        color: black;
-    }
-    #b_ack{
-        font-size:0.9rem;
-    }
   }
   @media screen and (min-width:601px) and (max-width:980px){
     .form-container{
@@ -306,6 +287,9 @@ p{
         width:100%;
         height:1400px;
         margin: auto;
+        display:flex;
+        justify-content: center;
+        align-items: center;
     }
     .my-form{
         min-width:601px;
@@ -315,17 +299,6 @@ p{
     .chart{
         display: none;
     }
-    .form p{
-        font-size:0.7rem;
-    }
-    .btn{
-        font-size:0.8rem;
-        background-color:lightgray;
-        color: black;
-    }
-    #b_ack{
-        font-size:0.9rem;
-    }
   }
   @media screen and (min-width:981px) and (max-width:1200){
     .form-container{
@@ -333,7 +306,6 @@ p{
         width:100%;
         height:1400px;
         margin: auto;
-        display: flex;
     }
     .my-form{
         min-width:601px;
@@ -345,21 +317,19 @@ p{
         height: auto;
         margin: auto;
     }
-    .form p{
-        font-size:0.875rem;
-    }
-    .btn{
-        font-size:0.8rem;
-        background-color:lightgray;
-        color: black;
-    }
   }
   @media screen and (min-width:1201){
     .form-container{
                     background-color:rgb(253,247,232);
                     width:100%;
                     height:1400px;
-                    margin: auto;
-                    display: flex;
+                    margin: 0 auto;
   }
+}
+@media (any-pointer:fine){
+    input[type = checkbox]:checked {
+        width:15px;
+        height:15px;
+        background:green;
+    }
 }
