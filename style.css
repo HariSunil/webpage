@@ -344,7 +344,7 @@ p{
         font-size: 20px;
     }
     .btn{
-        font-size: 18px;
+        font-size: 20px;
     }
     #UI{
         font-size: 28px;
@@ -377,9 +377,7 @@ p{
         margin: auto;
     }
     .chart{
-        min-width:auto;
-        height: auto;
-        margin: auto;
+        display: block;
     }
   }
   @media screen and (min-width:1201){
