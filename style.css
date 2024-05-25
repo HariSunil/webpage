@@ -332,7 +332,7 @@ p{
     }
     .element{
         width:550px;
-        height:820px;
+        height:800px;
     }
     .chart{
         display: none;
@@ -350,7 +350,7 @@ p{
         font-size: 28px;
     }
     #txt, #txt1{
-        font-size: 12px;
+        font-size: 10px;
     }
     .form input[type=text]{
         height:28px;
