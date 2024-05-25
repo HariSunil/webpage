@@ -288,6 +288,7 @@ p{
          margin: auto;
          display: flex;
         align-items: center;
+        zoom:90%;
        }
     .element{
         width:600px;
@@ -335,6 +336,7 @@ p{
          margin: auto;
          display: flex;
         align-items: center;
+        zoom:100%;
     }
     .element{
         width:600px;
