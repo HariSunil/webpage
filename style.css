@@ -331,33 +331,33 @@ p{
         align-items: center;
     }
     .element{
-        width:580px;
+        width:550px;
         height:800px;
     }
     .chart{
         display: none;
     }
     #name,#name1,#name2,#name3{
-        font-size: 20px;
+        font-size: 24px;
     }
     .btn{
         font-size: 20px;
     }
     #UI{
-        font-size: 28px;
+        font-size: 32px;
     }
     #signform{
-        font-size: 24px;
+        font-size: 28px;
     }
     #txt, #txt1{
         font-size: 12px;
     }
     .form input[type=text]{
-        height:24px;
+        height:28px;
     }
     #agree,#policy{
         font-size: 16px;
-        padding-left: 4px;
+        padding-left: 8px;
     }
     #b_ack{
         font-size: 16px;
