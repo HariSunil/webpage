@@ -332,7 +332,7 @@ p{
     }
     .element{
         width:550px;
-        height:800px;
+        height:900px;
     }
     .chart{
         display: none;
@@ -350,13 +350,13 @@ p{
         font-size: 28px;
     }
     #txt, #txt1{
-        font-size: 12px;
+        font-size: 14px;
     }
     .form input[type=text]{
         height:28px;
     }
     #agree,#policy{
-        font-size: 16px;
+        font-size: 18px;
         padding-left: 8px;
     }
     #b_ack{
