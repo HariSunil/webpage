@@ -325,7 +325,7 @@ p{
         font-size: 14px;
     }
     #acc{
-        font-size: 14px;
+        font-size: 16px;
     }
   }
   @media screen and (min-width:601px) and (max-width:980px){
@@ -383,7 +383,7 @@ p{
         right: 10px;
     }
     #acc{
-        font-size: 14px;
+        font-size: 16px;
     }
   }
   @media screen and (min-width:981px) and (max-width:1200){
