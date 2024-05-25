@@ -24,9 +24,9 @@ body{
 .form-container{  
     display: flex;
     justify-content: center;
-   align-items: center;
-   margin-top: 60px;
-   zoom:70%;
+    align-items: center;
+    margin-top: 100px;
+    zoom:70%;
   }
 #UI{
     font-family: 'mediumfont';
