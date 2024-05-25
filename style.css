@@ -140,6 +140,7 @@ p{
 }
 #acc{
     opacity: 0.4;
+    font-size: 14px;
 }
 .log a{
     text-decoration: none;
