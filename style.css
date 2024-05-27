@@ -17,6 +17,7 @@
 }
 body{
     background-color: rgb(253,247,232);
+    overflow: hidden;
 }
 ::-webkit-scrollbar { 
     display: none; 
@@ -26,7 +27,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-block: 100px;
-    zoom:70%;
+    zoom:65%;
   }
 #UI{
     font-family: 'mediumfont';
@@ -386,7 +387,7 @@ p{
         font-size: 16px;
     }
   }
-  @media screen and (min-width:981px) and (max-width:1200){
+  @media screen and (min-width:981px) and (max-width:1400){
     .chart{
         display: block;
     }
