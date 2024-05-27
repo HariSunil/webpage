@@ -18,6 +18,8 @@
 body{
     background-color: rgb(253,247,232);
     overflow: hidden;
+    height: auto;
+    width: auto;
 }
 ::-webkit-scrollbar { 
     display: none; 
@@ -26,13 +28,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-block: 100px;
+    margin-block: 70px;
     zoom:65%;
   }
 #UI{
     font-family: 'mediumfont';
     font-weight: 700;
-    font-size: 24px;
+    font-size: 26px;
     letter-spacing: 2px;
     position: relative;
     right: 16px;
@@ -40,12 +42,12 @@ body{
 .element{
     background-color: rgb(255,255,255);
     width:520px;
-    height: 740px;
+    height: 760px;
     padding-inline: 72px;
     padding-top:40px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
-    box-shadow: 0px 2px 4px 0px #888888;
+    box-shadow: 2px 0px 0px 2px #888888;
 
 }
 .base-element{
@@ -61,7 +63,7 @@ body{
 #signform{
     font-family: 'regularfont';
     font-weight: 980;
-    font-size: 22px;
+    font-size: 24px;
     margin-top: 16px;
     margin-bottom: 12px;
 }
@@ -71,7 +73,7 @@ body{
 }
 #b_ack{
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
     margin-left: 8px;
 }
 p{
@@ -80,7 +82,7 @@ p{
     padding-inline: 10px;
 }
 #name,#name1,#name2,#name3{
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'lightfont';
   font-weight: 800;
 }
@@ -179,7 +181,7 @@ p{
     background-color: rgb(241,244,249);
     color:black;
     border: none;
-    padding: 12px 18px;
+    padding: 14px 18px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
@@ -206,12 +208,14 @@ p{
 .chart{
     background-color: rgb(253,235,251);
     width:500px;
-    height: 740px;
-    padding-block: 100px;
+    height: 760px;
+    padding-block: 100px;   
     padding-inline: 20px;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
-    box-shadow: 1px 2px #888888;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    box-shadow: 2px 0px 0px 2px #888888;
 
 }
 .rating{
